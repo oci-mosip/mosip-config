@@ -73,7 +73,7 @@
         {
           "name": "e-Signet",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://${mosip.api.public.host}/inji/inji-home-logo.png",
             "alt_text": "mosip-logo"
           },
           "title": "Download MOSIP Credentials",
@@ -133,7 +133,7 @@
       ],
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.partner.clientid}",
-      "client_alias": "mpartner-default-mimotooidc",
+      "client_alias": "mimoto-oidc-test",
       "scopes_supported": ["mosip_identity_vc_ldp"],
       "additional_headers": { "Accept": "application/json" },
       ".well-known": "https://${mosip.esignet.host}/.well-known/openid-credential-issuer?version=v11",
