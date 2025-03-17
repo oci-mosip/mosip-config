@@ -110,12 +110,12 @@
           "name": "Mock Verifiable Credential",
           "locale": "en",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://api.collab.mosip.net/inji/mosip-logo.png",
             "alt_text": "a square logo of a MOSIP"
           },
           "background_color": "#12107c",
           "background_image": {
-            "uri": "https://${mosip.api.public.host}/inji/mosip-logo.png"
+            "uri": "https://api.collab.mosip.net/inji/mosip-logo.png"
           },
           "text_color": "#FFFFFF"
         }
