@@ -84,7 +84,7 @@
         }
       ],
       "client_id": "wallet-demo",
-      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect,https://${mosip.injiweb.host}/redirect",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Farmer",
       "authorization_audience": "https://esignet-mock.collab.mosip.net/v1/esignet/oauth/v2/token",
       "proxy_token_endpoint": "https://esignet-mock.collab.mosip.net/v1/esignet/oauth/v2/token",
