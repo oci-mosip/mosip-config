@@ -141,6 +141,32 @@
       "proxy_token_endpoint": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
+    },
+     {
+      "credential_issuer": "Farmer",
+      "issuer_id": "Farmer",
+      "protocol": "OpenId4VCI",
+      "display": [
+        {
+          "name": "Agriculture Department",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/agro-vertias-logo.png",
+            "alt_text": "agri-logo"
+          },
+          "title": "Agriculture Department",
+          "description": "Download Farmers Credentials",
+          "language": "en"
+        }
+      ],
+      "client_id": "wallet-demo",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Farmer",
+      "authorization_audience": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
+      "proxy_token_endpoint": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
+      "client_alias": "mpartner-default-mimotooidc",
+      "qr_code_type": "EmbeddedVC",
+      "enabled": "true",
+      "wellknown_endpoint": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance/.well-known/openid-credential-issuer"
     }
 
 
