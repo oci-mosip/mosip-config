@@ -158,7 +158,7 @@
           "language": "en"
         }
       ],
-      "client_id": "wallet-demo",
+      "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect,https://${mosip.injiweb.host}/redirect",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Farmer",
       "authorization_audience": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
