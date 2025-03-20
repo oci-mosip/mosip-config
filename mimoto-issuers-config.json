@@ -83,12 +83,12 @@
           "language": "en"
         }
       ],
-      "client_id": "wallet-demo",
+      "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
+      "client_alias": "mpartner-default-mimotooidc",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect,https://${mosip.injiweb.host}/redirect",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Farmer",
-      "authorization_audience": "https://esignet-mock.collab.mosip.net/v1/esignet/oauth/v2/token",
-      "proxy_token_endpoint": "https://esignet-mock.collab.mosip.net/v1/esignet/oauth/v2/token",
-      "client_alias": "wallet-demo-client",
+      "authorization_audience": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
+      "proxy_token_endpoint": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "EmbeddedVC",
       "enabled": "true",
       "wellknown_endpoint": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance/.well-known/openid-credential-issuer"
