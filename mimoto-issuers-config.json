@@ -69,7 +69,7 @@
     },
     {
       "credential_issuer": "Farmer",
-      "issuer_id": "Farmer",
+      "issuer_id": "Sunbird",
       "protocol": "OpenId4VCI",
       "display": [
         {
