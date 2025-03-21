@@ -68,8 +68,8 @@
       "enabled": "${mosip.otp.download.enable}"
     },
     {
-      "credential_issuer": "Sunbird",
-      "issuer_id": "Sunbird",
+      "credential_issuer": "mock",
+      "issuer_id": "mock",
       "protocol": "OpenId4VCI",
       "display": [
         {
@@ -86,7 +86,7 @@
       "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
       "client_alias": "mpartner-default-mimotooidc",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect,https://${mosip.injiweb.host}/redirect",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Sunbird",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/mock",
       "authorization_audience": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
       "proxy_token_endpoint": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "EmbeddedVC",
