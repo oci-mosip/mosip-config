@@ -91,7 +91,7 @@
       "proxy_token_endpoint": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "EmbeddedVC",
       "enabled": "true",
-      "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}",
+      "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance/",
       "wellknown_endpoint": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance/.well-known/openid-credential-issuer"
 
     }
